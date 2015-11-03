@@ -1,0 +1,72 @@
+header {
+text-align: center;
+background: url('https://c1.staticflickr.com/3/2911/13924754236_6886488a8a_o.jpg');
+background-size: cover;
+background-position: center;
+color: rgba(0, 0, 0, 0.9);
+padding: 100px 0 0 0;
+}
+a {
+color: rgba(100, 100, 100, 0.9);
+text-decoration: none;
+font-size: 14px;
+}
+a:link {
+color: rgba(100, 100, 100, 0.9);
+}
+a:visited {
+color: rgba(100, 100, 100, 0.9);
+}
+a:hover {
+color: rgba(255, 255, 255, 1);
+text-decoration: none;
+}
+a:active {
+color: rgba(100, 100, 100, 0.9);
+text-decoration: none;
+
+}
+article {
+max-width: 500px;
+padding: 20px;
+margin: 0 auto;
+}
+body {
+margin: 0;
+}
+h1 {
+font-size: 70px;
+}
+h2 {
+font-size: 30px;
+max-width: 500px;
+padding: 50px;
+margin: 0 auto;
+}
+ul {
+padding: 10px;
+background: rgba(10, 0, 0, 0.6);
+}
+li {
+display: inline;
+padding: 0 10px 0 10px;
+color: rgba(255, 255, 255, 1);
+}
+p {
+font-size: 15px;
+max-width: 500px;
+margin: 0 auto;
+}
+@media (max-width: 500px) {
+h1 {
+font-size: 36px;
+padding: 5px;
+}
+li {
+padding: 5px;
+display: inline;
+}
+p { 
+padding: 0 0 0 50px;
+display: block;
+}
